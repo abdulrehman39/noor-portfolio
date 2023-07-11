@@ -58,7 +58,7 @@ sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio | Abdul Rehman";
             $("#favicon").attr("href", "assets/img/about.jpg");
         }
         else {
